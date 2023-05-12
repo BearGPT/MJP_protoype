@@ -35,5 +35,6 @@ iface = gr.Interface(fn=chatbot,
                      outputs="text",
                      title="My Chatbot")
 
+# create a docs folder and put some word files in it
 index = construct_index("docs")
 iface.launch(share=True)
